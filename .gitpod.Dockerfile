@@ -1,6 +1,6 @@
 # See here all gitpod images available: https://hub.docker.com/r/gitpod/workspace-python-3.12/tags
 # Current python version: 3.12
-FROM gitpod/workspace-python-3.12@sha256:af70f52d175b81a9d3814c052ec89a34ae1b2b8982f17c92e36fe30017a26701
+FROM gitpod/workspace-python-3.11@sha256:2d9a242844bef5710ab4622899a5254a0c59f0ac58c0d3ac998f749323f43951
 
 WORKDIR /app
 ADD . /app
